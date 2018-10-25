@@ -1,0 +1,15 @@
+{
+    "name": "escuela-it",
+    "version": "1.0.0",
+    "description": "",
+    "main": "array.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "doctordulitel",
+    "license": "ISC",
+    "dependencies": {
+        "cookies-js": "^1.2.3",
+        "jquery": "^3.3.1"
+    }
+}

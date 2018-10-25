@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <meta>
+    <title>
+        DOM
+    </title>
+</head>
+
+<body>
+
+    <form action="post.php" id="f" name="elformulario">
+
+        <label for="campo" id="etiqCampo">campo de texto:</label>
+        <input type="text" name="campo" size="40" id="c1">
+    </form>
+
+    <script>
+        console.log(document.forms[0].action);
+        //document.forms[0].elements[0].value = 'que tal vecinos!';
+        // document.forms[0].campo.value = 'que tal veciniiiiitos!';
+        document.forms.elformulario.campo.value = 'que tal estan vecinossss!!!!';
+        //document.getElementById('etiqCampo').textContent = 'AKI!!';
+
+        document.getElementById('etiqCampo').addEventListener('click', cambiaFoco);
+
+        function cambiaFoco() {
+            document.forms.elformulario.campo.focus();
+        }
+
+        document.getElementById('c1').addEventListener('keyup', function() {
+            //this ----> es una referencia sobre el objeto sobre el cual se ha detectado elevento
+            console.log('jijijijajajaj', this.value);
+        })
+    </script>
+
+    <script src="./dom.js"></script>
+
+
+
+</body>
+
+</html>

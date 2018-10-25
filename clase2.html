@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <meta>
+    <title>
+        Calculadora
+    </title>
+</head>
+
+<body>
+
+    <input type="text" id="operando1" size="4">
+    <button id="suma">+</button>
+    <input type="text" id="operando2" size="4"> =
+    <input type="text" id="resultado" size="4">
+
+
+
+
+    <script>
+        function suma() {
+
+            var op1 = document.getElementById('operando1').value;
+            var op2 = document.getElementById('operando2').value;
+            var resultado = Number(op1) + Number(op2);
+            if (isNaN(resultado)) {
+                alert('No es un número, melón');
+            } else {
+                document.getElementById('resultado').value = resultado;
+
+            }
+
+
+        }
+        document.getElementById('suma').addEventListener('click', suma);
+    </script>
+    <script src="./condicionales.js"></script>
+    <script src="./funciones.js"></script>
+    <script src="./array.js"></script>
+
+
+
+</body>
+
+</html>

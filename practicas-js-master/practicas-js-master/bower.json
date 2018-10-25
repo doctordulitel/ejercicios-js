@@ -1,0 +1,32 @@
+{
+  "name": "js-practico",
+  "homepage": "https://github.com/EscuelaIt/practicas-js",
+  "authors": [
+    "Miguel Angel Alvarez <malvarez@desarrolloweb.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "cookies-js": "^1.2.3",
+    "jquery": "^3.2.1",
+    "datetimepicker": "^2.5.4",
+    "pikaday": "^1.5.1",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13",
+    "fetch": "^2.0.3",
+    "promise-polyfill": "^6.0.2",
+    "handlebars": "^4.0.8",
+    "polymer": "^1.9.0",
+    "iron-ajax": "PolymerElements/iron-ajax#^2.0.0",
+    "paper-spinner": "PolymerElements/paper-spinner#^2.0.0"
+  }
+}
